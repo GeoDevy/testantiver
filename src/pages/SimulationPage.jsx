@@ -13,7 +13,6 @@ export default function SimulationPage() {
                 <div className="video-container">
                     <video
                         className="flow-depth-video"
-                        controls
                         loop
                         autoPlay
                         muted
@@ -38,7 +37,6 @@ export default function SimulationPage() {
                 <div className="video-container">
                     <video
                         className="flow-depth-video"
-                        controls
                         loop
                         autoPlay
                         muted
