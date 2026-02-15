@@ -1,0 +1,1120 @@
+{
+  "years": [
+    1995,
+    2005,
+    2015,
+    2025
+  ],
+  "classes": [
+    "Water",
+    "Trees",
+    "Croplands",
+    "OpenFields",
+    "BuiltUp",
+    "SandySoil"
+  ],
+  "yearClassTotals": [
+    {
+      "year": 1995,
+      "Water": 242.87800200000004,
+      "Trees": 416.049871,
+      "Croplands": 1945.6924870000007,
+      "OpenFields": 1104.5078020000005,
+      "BuiltUp": 144.74980999999994,
+      "SandySoil": 422.18243299999995
+    },
+    {
+      "year": 2005,
+      "Water": 310.31942499999997,
+      "Trees": 573.1811740000002,
+      "Croplands": 795.7123880000001,
+      "OpenFields": 1968.2107769999998,
+      "BuiltUp": 476.13528999999966,
+      "SandySoil": 152.501351
+    },
+    {
+      "year": 2015,
+      "Water": 210.89924600000006,
+      "Trees": 297.08638099999956,
+      "Croplands": 730.621183,
+      "OpenFields": 2179.0375910000002,
+      "BuiltUp": 606.601695,
+      "SandySoil": 251.814309
+    },
+    {
+      "year": 2025,
+      "Water": 339.195537,
+      "Trees": 376.44631699999985,
+      "Croplands": 1123.6398060000004,
+      "OpenFields": 1361.3085820000006,
+      "BuiltUp": 928.9702349999995,
+      "SandySoil": 146.49992800000004
+    }
+  ],
+  "periodTransitions": [
+    {
+      "fromYear": 1995,
+      "toYear": 2005,
+      "matrix": {
+        "Water": {
+          "Water": 102.48624500000001,
+          "Trees": 4.870065999999998,
+          "Croplands": 3.051491,
+          "OpenFields": 59.94203900000001,
+          "BuiltUp": 26.461183000000002,
+          "SandySoil": 46.066978
+        },
+        "Trees": {
+          "Water": 3.5275980000000002,
+          "Trees": 171.733986,
+          "Croplands": 106.529217,
+          "OpenFields": 92.02103600000001,
+          "BuiltUp": 41.90557200000001,
+          "SandySoil": 0.332462
+        },
+        "Croplands": {
+          "Water": 43.168868,
+          "Trees": 269.71511999999996,
+          "Croplands": 437.82900900000004,
+          "OpenFields": 942.564192,
+          "BuiltUp": 237.525252,
+          "SandySoil": 14.890045999999998
+        },
+        "OpenFields": {
+          "Water": 54.570631999999996,
+          "Trees": 103.47971800000003,
+          "Croplands": 214.238825,
+          "OpenFields": 645.5476140000001,
+          "BuiltUp": 64.245549,
+          "SandySoil": 22.425464
+        },
+        "BuiltUp": {
+          "Water": 5.501657,
+          "Trees": 10.230841,
+          "Croplands": 11.934139000000004,
+          "OpenFields": 55.442344,
+          "BuiltUp": 60.726555000000005,
+          "SandySoil": 0.9142740000000001
+        },
+        "SandySoil": {
+          "Water": 101.06442500000001,
+          "Trees": 13.151442999999999,
+          "Croplands": 22.12970699999999,
+          "OpenFields": 172.69355199999993,
+          "BuiltUp": 45.27117900000001,
+          "SandySoil": 67.87212699999999
+        }
+      }
+    },
+    {
+      "fromYear": 2005,
+      "toYear": 2015,
+      "matrix": {
+        "Water": {
+          "Water": 104.939895,
+          "Trees": 3.352246,
+          "Croplands": 5.815895,
+          "OpenFields": 107.84685399999998,
+          "BuiltUp": 26.517248,
+          "SandySoil": 61.847287
+        },
+        "Trees": {
+          "Water": 2.585095,
+          "Trees": 127.590714,
+          "Croplands": 88.45450899999999,
+          "OpenFields": 218.696402,
+          "BuiltUp": 129.98767199999995,
+          "SandySoil": 5.866781999999998
+        },
+        "Croplands": {
+          "Water": 5.790472000000001,
+          "Trees": 75.529723,
+          "Croplands": 184.061998,
+          "OpenFields": 429.70338999999996,
+          "BuiltUp": 75.88083600000003,
+          "SandySoil": 24.74596899999999
+        },
+        "OpenFields": {
+          "Water": 57.29470499999999,
+          "Trees": 57.122614999999996,
+          "Croplands": 396.457613,
+          "OpenFields": 1159.377267,
+          "BuiltUp": 188.373738,
+          "SandySoil": 109.58483899999999
+        },
+        "BuiltUp": {
+          "Water": 15.522901000000001,
+          "Trees": 30.643001000000005,
+          "Croplands": 51.97353599999998,
+          "OpenFields": 184.073745,
+          "BuiltUp": 176.052765,
+          "SandySoil": 17.869342
+        },
+        "SandySoil": {
+          "Water": 24.766178000000007,
+          "Trees": 2.8480820000000007,
+          "Croplands": 3.857632,
+          "OpenFields": 79.33993299999999,
+          "BuiltUp": 9.789435999999998,
+          "SandySoil": 31.90009
+        }
+      }
+    },
+    {
+      "fromYear": 2015,
+      "toYear": 2025,
+      "matrix": {
+        "Water": {
+          "Water": 112.85154100000001,
+          "Trees": 0.6996509999999999,
+          "Croplands": 9.366807,
+          "OpenFields": 32.157255,
+          "BuiltUp": 21.568956,
+          "SandySoil": 34.255036000000004
+        },
+        "Trees": {
+          "Water": 3.3269390000000003,
+          "Trees": 124.00247899999998,
+          "Croplands": 70.64896799999998,
+          "OpenFields": 60.78070399999999,
+          "BuiltUp": 37.97706300000001,
+          "SandySoil": 0.35022800000000004
+        },
+        "Croplands": {
+          "Water": 10.582525999999998,
+          "Trees": 67.40641,
+          "Croplands": 260.48415200000005,
+          "OpenFields": 251.257538,
+          "BuiltUp": 138.91768100000002,
+          "SandySoil": 1.972876
+        },
+        "OpenFields": {
+          "Water": 140.714564,
+          "Trees": 136.429249,
+          "Croplands": 558.5560950000001,
+          "OpenFields": 828.6239030000002,
+          "BuiltUp": 444.6509070000001,
+          "SandySoil": 70.062873
+        },
+        "BuiltUp": {
+          "Water": 26.749595000000006,
+          "Trees": 44.45688500000001,
+          "Croplands": 173.93213500000005,
+          "OpenFields": 118.137002,
+          "BuiltUp": 235.77202100000005,
+          "SandySoil": 7.554056999999999
+        },
+        "SandySoil": {
+          "Water": 44.970372,
+          "Trees": 3.451642999999999,
+          "Croplands": 50.651649,
+          "OpenFields": 70.35218000000002,
+          "BuiltUp": 50.083607,
+          "SandySoil": 32.304858
+        }
+      }
+    }
+  ],
+  "sankeyData": [
+    {
+      "fromYear": 1995,
+      "toYear": 2005,
+      "nodes": [
+        {
+          "name": "Water (1995)"
+        },
+        {
+          "name": "Trees (1995)"
+        },
+        {
+          "name": "Croplands (1995)"
+        },
+        {
+          "name": "OpenFields (1995)"
+        },
+        {
+          "name": "BuiltUp (1995)"
+        },
+        {
+          "name": "SandySoil (1995)"
+        },
+        {
+          "name": "Water (2005)"
+        },
+        {
+          "name": "Trees (2005)"
+        },
+        {
+          "name": "Croplands (2005)"
+        },
+        {
+          "name": "OpenFields (2005)"
+        },
+        {
+          "name": "BuiltUp (2005)"
+        },
+        {
+          "name": "SandySoil (2005)"
+        }
+      ],
+      "links": [
+        {
+          "source": 0,
+          "target": 6,
+          "value": 102.486,
+          "fromClass": "Water",
+          "toClass": "Water"
+        },
+        {
+          "source": 0,
+          "target": 7,
+          "value": 4.87,
+          "fromClass": "Water",
+          "toClass": "Trees"
+        },
+        {
+          "source": 0,
+          "target": 8,
+          "value": 3.051,
+          "fromClass": "Water",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 0,
+          "target": 9,
+          "value": 59.942,
+          "fromClass": "Water",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 0,
+          "target": 10,
+          "value": 26.461,
+          "fromClass": "Water",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 0,
+          "target": 11,
+          "value": 46.067,
+          "fromClass": "Water",
+          "toClass": "SandySoil"
+        },
+        {
+          "source": 1,
+          "target": 6,
+          "value": 3.528,
+          "fromClass": "Trees",
+          "toClass": "Water"
+        },
+        {
+          "source": 1,
+          "target": 7,
+          "value": 171.734,
+          "fromClass": "Trees",
+          "toClass": "Trees"
+        },
+        {
+          "source": 1,
+          "target": 8,
+          "value": 106.529,
+          "fromClass": "Trees",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 1,
+          "target": 9,
+          "value": 92.021,
+          "fromClass": "Trees",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 1,
+          "target": 10,
+          "value": 41.906,
+          "fromClass": "Trees",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 1,
+          "target": 11,
+          "value": 0.332,
+          "fromClass": "Trees",
+          "toClass": "SandySoil"
+        },
+        {
+          "source": 2,
+          "target": 6,
+          "value": 43.169,
+          "fromClass": "Croplands",
+          "toClass": "Water"
+        },
+        {
+          "source": 2,
+          "target": 7,
+          "value": 269.715,
+          "fromClass": "Croplands",
+          "toClass": "Trees"
+        },
+        {
+          "source": 2,
+          "target": 8,
+          "value": 437.829,
+          "fromClass": "Croplands",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 2,
+          "target": 9,
+          "value": 942.564,
+          "fromClass": "Croplands",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 2,
+          "target": 10,
+          "value": 237.525,
+          "fromClass": "Croplands",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 2,
+          "target": 11,
+          "value": 14.89,
+          "fromClass": "Croplands",
+          "toClass": "SandySoil"
+        },
+        {
+          "source": 3,
+          "target": 6,
+          "value": 54.571,
+          "fromClass": "OpenFields",
+          "toClass": "Water"
+        },
+        {
+          "source": 3,
+          "target": 7,
+          "value": 103.48,
+          "fromClass": "OpenFields",
+          "toClass": "Trees"
+        },
+        {
+          "source": 3,
+          "target": 8,
+          "value": 214.239,
+          "fromClass": "OpenFields",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 3,
+          "target": 9,
+          "value": 645.548,
+          "fromClass": "OpenFields",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 3,
+          "target": 10,
+          "value": 64.246,
+          "fromClass": "OpenFields",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 3,
+          "target": 11,
+          "value": 22.425,
+          "fromClass": "OpenFields",
+          "toClass": "SandySoil"
+        },
+        {
+          "source": 4,
+          "target": 6,
+          "value": 5.502,
+          "fromClass": "BuiltUp",
+          "toClass": "Water"
+        },
+        {
+          "source": 4,
+          "target": 7,
+          "value": 10.231,
+          "fromClass": "BuiltUp",
+          "toClass": "Trees"
+        },
+        {
+          "source": 4,
+          "target": 8,
+          "value": 11.934,
+          "fromClass": "BuiltUp",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 4,
+          "target": 9,
+          "value": 55.442,
+          "fromClass": "BuiltUp",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 4,
+          "target": 10,
+          "value": 60.727,
+          "fromClass": "BuiltUp",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 4,
+          "target": 11,
+          "value": 0.914,
+          "fromClass": "BuiltUp",
+          "toClass": "SandySoil"
+        },
+        {
+          "source": 5,
+          "target": 6,
+          "value": 101.064,
+          "fromClass": "SandySoil",
+          "toClass": "Water"
+        },
+        {
+          "source": 5,
+          "target": 7,
+          "value": 13.151,
+          "fromClass": "SandySoil",
+          "toClass": "Trees"
+        },
+        {
+          "source": 5,
+          "target": 8,
+          "value": 22.13,
+          "fromClass": "SandySoil",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 5,
+          "target": 9,
+          "value": 172.694,
+          "fromClass": "SandySoil",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 5,
+          "target": 10,
+          "value": 45.271,
+          "fromClass": "SandySoil",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 5,
+          "target": 11,
+          "value": 67.872,
+          "fromClass": "SandySoil",
+          "toClass": "SandySoil"
+        }
+      ]
+    },
+    {
+      "fromYear": 2005,
+      "toYear": 2015,
+      "nodes": [
+        {
+          "name": "Water (2005)"
+        },
+        {
+          "name": "Trees (2005)"
+        },
+        {
+          "name": "Croplands (2005)"
+        },
+        {
+          "name": "OpenFields (2005)"
+        },
+        {
+          "name": "BuiltUp (2005)"
+        },
+        {
+          "name": "SandySoil (2005)"
+        },
+        {
+          "name": "Water (2015)"
+        },
+        {
+          "name": "Trees (2015)"
+        },
+        {
+          "name": "Croplands (2015)"
+        },
+        {
+          "name": "OpenFields (2015)"
+        },
+        {
+          "name": "BuiltUp (2015)"
+        },
+        {
+          "name": "SandySoil (2015)"
+        }
+      ],
+      "links": [
+        {
+          "source": 0,
+          "target": 6,
+          "value": 104.94,
+          "fromClass": "Water",
+          "toClass": "Water"
+        },
+        {
+          "source": 0,
+          "target": 7,
+          "value": 3.352,
+          "fromClass": "Water",
+          "toClass": "Trees"
+        },
+        {
+          "source": 0,
+          "target": 8,
+          "value": 5.816,
+          "fromClass": "Water",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 0,
+          "target": 9,
+          "value": 107.847,
+          "fromClass": "Water",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 0,
+          "target": 10,
+          "value": 26.517,
+          "fromClass": "Water",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 0,
+          "target": 11,
+          "value": 61.847,
+          "fromClass": "Water",
+          "toClass": "SandySoil"
+        },
+        {
+          "source": 1,
+          "target": 6,
+          "value": 2.585,
+          "fromClass": "Trees",
+          "toClass": "Water"
+        },
+        {
+          "source": 1,
+          "target": 7,
+          "value": 127.591,
+          "fromClass": "Trees",
+          "toClass": "Trees"
+        },
+        {
+          "source": 1,
+          "target": 8,
+          "value": 88.455,
+          "fromClass": "Trees",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 1,
+          "target": 9,
+          "value": 218.696,
+          "fromClass": "Trees",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 1,
+          "target": 10,
+          "value": 129.988,
+          "fromClass": "Trees",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 1,
+          "target": 11,
+          "value": 5.867,
+          "fromClass": "Trees",
+          "toClass": "SandySoil"
+        },
+        {
+          "source": 2,
+          "target": 6,
+          "value": 5.79,
+          "fromClass": "Croplands",
+          "toClass": "Water"
+        },
+        {
+          "source": 2,
+          "target": 7,
+          "value": 75.53,
+          "fromClass": "Croplands",
+          "toClass": "Trees"
+        },
+        {
+          "source": 2,
+          "target": 8,
+          "value": 184.062,
+          "fromClass": "Croplands",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 2,
+          "target": 9,
+          "value": 429.703,
+          "fromClass": "Croplands",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 2,
+          "target": 10,
+          "value": 75.881,
+          "fromClass": "Croplands",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 2,
+          "target": 11,
+          "value": 24.746,
+          "fromClass": "Croplands",
+          "toClass": "SandySoil"
+        },
+        {
+          "source": 3,
+          "target": 6,
+          "value": 57.295,
+          "fromClass": "OpenFields",
+          "toClass": "Water"
+        },
+        {
+          "source": 3,
+          "target": 7,
+          "value": 57.123,
+          "fromClass": "OpenFields",
+          "toClass": "Trees"
+        },
+        {
+          "source": 3,
+          "target": 8,
+          "value": 396.458,
+          "fromClass": "OpenFields",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 3,
+          "target": 9,
+          "value": 1159.377,
+          "fromClass": "OpenFields",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 3,
+          "target": 10,
+          "value": 188.374,
+          "fromClass": "OpenFields",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 3,
+          "target": 11,
+          "value": 109.585,
+          "fromClass": "OpenFields",
+          "toClass": "SandySoil"
+        },
+        {
+          "source": 4,
+          "target": 6,
+          "value": 15.523,
+          "fromClass": "BuiltUp",
+          "toClass": "Water"
+        },
+        {
+          "source": 4,
+          "target": 7,
+          "value": 30.643,
+          "fromClass": "BuiltUp",
+          "toClass": "Trees"
+        },
+        {
+          "source": 4,
+          "target": 8,
+          "value": 51.974,
+          "fromClass": "BuiltUp",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 4,
+          "target": 9,
+          "value": 184.074,
+          "fromClass": "BuiltUp",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 4,
+          "target": 10,
+          "value": 176.053,
+          "fromClass": "BuiltUp",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 4,
+          "target": 11,
+          "value": 17.869,
+          "fromClass": "BuiltUp",
+          "toClass": "SandySoil"
+        },
+        {
+          "source": 5,
+          "target": 6,
+          "value": 24.766,
+          "fromClass": "SandySoil",
+          "toClass": "Water"
+        },
+        {
+          "source": 5,
+          "target": 7,
+          "value": 2.848,
+          "fromClass": "SandySoil",
+          "toClass": "Trees"
+        },
+        {
+          "source": 5,
+          "target": 8,
+          "value": 3.858,
+          "fromClass": "SandySoil",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 5,
+          "target": 9,
+          "value": 79.34,
+          "fromClass": "SandySoil",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 5,
+          "target": 10,
+          "value": 9.789,
+          "fromClass": "SandySoil",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 5,
+          "target": 11,
+          "value": 31.9,
+          "fromClass": "SandySoil",
+          "toClass": "SandySoil"
+        }
+      ]
+    },
+    {
+      "fromYear": 2015,
+      "toYear": 2025,
+      "nodes": [
+        {
+          "name": "Water (2015)"
+        },
+        {
+          "name": "Trees (2015)"
+        },
+        {
+          "name": "Croplands (2015)"
+        },
+        {
+          "name": "OpenFields (2015)"
+        },
+        {
+          "name": "BuiltUp (2015)"
+        },
+        {
+          "name": "SandySoil (2015)"
+        },
+        {
+          "name": "Water (2025)"
+        },
+        {
+          "name": "Trees (2025)"
+        },
+        {
+          "name": "Croplands (2025)"
+        },
+        {
+          "name": "OpenFields (2025)"
+        },
+        {
+          "name": "BuiltUp (2025)"
+        },
+        {
+          "name": "SandySoil (2025)"
+        }
+      ],
+      "links": [
+        {
+          "source": 0,
+          "target": 6,
+          "value": 112.852,
+          "fromClass": "Water",
+          "toClass": "Water"
+        },
+        {
+          "source": 0,
+          "target": 7,
+          "value": 0.7,
+          "fromClass": "Water",
+          "toClass": "Trees"
+        },
+        {
+          "source": 0,
+          "target": 8,
+          "value": 9.367,
+          "fromClass": "Water",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 0,
+          "target": 9,
+          "value": 32.157,
+          "fromClass": "Water",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 0,
+          "target": 10,
+          "value": 21.569,
+          "fromClass": "Water",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 0,
+          "target": 11,
+          "value": 34.255,
+          "fromClass": "Water",
+          "toClass": "SandySoil"
+        },
+        {
+          "source": 1,
+          "target": 6,
+          "value": 3.327,
+          "fromClass": "Trees",
+          "toClass": "Water"
+        },
+        {
+          "source": 1,
+          "target": 7,
+          "value": 124.002,
+          "fromClass": "Trees",
+          "toClass": "Trees"
+        },
+        {
+          "source": 1,
+          "target": 8,
+          "value": 70.649,
+          "fromClass": "Trees",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 1,
+          "target": 9,
+          "value": 60.781,
+          "fromClass": "Trees",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 1,
+          "target": 10,
+          "value": 37.977,
+          "fromClass": "Trees",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 1,
+          "target": 11,
+          "value": 0.35,
+          "fromClass": "Trees",
+          "toClass": "SandySoil"
+        },
+        {
+          "source": 2,
+          "target": 6,
+          "value": 10.583,
+          "fromClass": "Croplands",
+          "toClass": "Water"
+        },
+        {
+          "source": 2,
+          "target": 7,
+          "value": 67.406,
+          "fromClass": "Croplands",
+          "toClass": "Trees"
+        },
+        {
+          "source": 2,
+          "target": 8,
+          "value": 260.484,
+          "fromClass": "Croplands",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 2,
+          "target": 9,
+          "value": 251.258,
+          "fromClass": "Croplands",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 2,
+          "target": 10,
+          "value": 138.918,
+          "fromClass": "Croplands",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 2,
+          "target": 11,
+          "value": 1.973,
+          "fromClass": "Croplands",
+          "toClass": "SandySoil"
+        },
+        {
+          "source": 3,
+          "target": 6,
+          "value": 140.715,
+          "fromClass": "OpenFields",
+          "toClass": "Water"
+        },
+        {
+          "source": 3,
+          "target": 7,
+          "value": 136.429,
+          "fromClass": "OpenFields",
+          "toClass": "Trees"
+        },
+        {
+          "source": 3,
+          "target": 8,
+          "value": 558.556,
+          "fromClass": "OpenFields",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 3,
+          "target": 9,
+          "value": 828.624,
+          "fromClass": "OpenFields",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 3,
+          "target": 10,
+          "value": 444.651,
+          "fromClass": "OpenFields",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 3,
+          "target": 11,
+          "value": 70.063,
+          "fromClass": "OpenFields",
+          "toClass": "SandySoil"
+        },
+        {
+          "source": 4,
+          "target": 6,
+          "value": 26.75,
+          "fromClass": "BuiltUp",
+          "toClass": "Water"
+        },
+        {
+          "source": 4,
+          "target": 7,
+          "value": 44.457,
+          "fromClass": "BuiltUp",
+          "toClass": "Trees"
+        },
+        {
+          "source": 4,
+          "target": 8,
+          "value": 173.932,
+          "fromClass": "BuiltUp",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 4,
+          "target": 9,
+          "value": 118.137,
+          "fromClass": "BuiltUp",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 4,
+          "target": 10,
+          "value": 235.772,
+          "fromClass": "BuiltUp",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 4,
+          "target": 11,
+          "value": 7.554,
+          "fromClass": "BuiltUp",
+          "toClass": "SandySoil"
+        },
+        {
+          "source": 5,
+          "target": 6,
+          "value": 44.97,
+          "fromClass": "SandySoil",
+          "toClass": "Water"
+        },
+        {
+          "source": 5,
+          "target": 7,
+          "value": 3.452,
+          "fromClass": "SandySoil",
+          "toClass": "Trees"
+        },
+        {
+          "source": 5,
+          "target": 8,
+          "value": 50.652,
+          "fromClass": "SandySoil",
+          "toClass": "Croplands"
+        },
+        {
+          "source": 5,
+          "target": 9,
+          "value": 70.352,
+          "fromClass": "SandySoil",
+          "toClass": "OpenFields"
+        },
+        {
+          "source": 5,
+          "target": 10,
+          "value": 50.084,
+          "fromClass": "SandySoil",
+          "toClass": "BuiltUp"
+        },
+        {
+          "source": 5,
+          "target": 11,
+          "value": 32.305,
+          "fromClass": "SandySoil",
+          "toClass": "SandySoil"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "totalArea": 6271,
+    "biggestGrowth": {
+      "class": "BuiltUp",
+      "change": 784.22
+    },
+    "biggestDecline": {
+      "class": "Croplands",
+      "change": -822.05
+    },
+    "dominantClass": "OpenFields"
+  }
+}
