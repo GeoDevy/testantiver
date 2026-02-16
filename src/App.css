@@ -55,16 +55,16 @@ body {
   min-height: 100vh;
 }
 
-/* ══════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    APP LAYOUT
-   ══════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .app-layout {
   display: flex;
   min-height: 100vh;
   background: var(--bg-primary);
 }
 
-/* ─── Sidebar ─── */
+/* â”€â”€â”€ Sidebar â”€â”€â”€ */
 .sidebar {
   position: fixed;
   top: 0;
@@ -131,7 +131,7 @@ body {
   color: var(--text-secondary);
 }
 
-/* ─── Nav Items ─── */
+/* â”€â”€â”€ Nav Items â”€â”€â”€ */
 .sidebar-nav {
   padding: 0.75rem 0.6rem;
   display: flex;
@@ -179,7 +179,7 @@ body {
   padding: 0.65rem;
 }
 
-/* ─── Period Selector in Sidebar ─── */
+/* â”€â”€â”€ Period Selector in Sidebar â”€â”€â”€ */
 .sidebar-section {
   padding: 1rem;
   border-top: 1px solid var(--border);
@@ -239,20 +239,22 @@ body {
   line-height: 1.4;
 }
 
-/* ─── Main Wrapper ─── */
+/* â”€â”€â”€ Main Wrapper â”€â”€â”€ */
 .main-wrapper {
   flex: 1;
   margin-left: var(--sidebar-width);
   min-height: 100vh;
   background: var(--bg-secondary);
   transition: margin-left 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .collapsed~.main-wrapper {
   margin-left: var(--sidebar-collapsed-width);
 }
 
-/* ─── Top Bar ─── */
+/* â”€â”€â”€ Top Bar â”€â”€â”€ */
 .topbar {
   height: var(--topbar-height);
   padding: 0 2rem;
@@ -277,15 +279,18 @@ body {
   color: var(--text-muted);
 }
 
-/* ─── Dashboard Content ─── */
+/* â”€â”€â”€ Dashboard Content â”€â”€â”€ */
 .dashboard-content {
-  padding: 1.5rem 2rem 3rem;
+  padding: 1.5rem 2rem 1rem;
   max-width: 1400px;
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 1rem;
 }
 
-/* ══════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    STAT CARDS
-   ══════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .stat-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -306,7 +311,7 @@ body {
   overflow: hidden;
 }
 
-/* LULC Symbology ribbon — uses --ribbon-color set on each card, or multi-class gradient fallback */
+/* LULC Symbology ribbon â€” uses --ribbon-color set on each card, or multi-class gradient fallback */
 .stat-card::before {
   content: '';
   position: absolute;
@@ -356,9 +361,9 @@ body {
   font-weight: 400;
 }
 
-/* ══════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    CHART GRID & CARDS
-   ══════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .chart-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -410,7 +415,7 @@ body {
   border: 1px solid rgba(59, 130, 246, 0.15);
 }
 
-/* ─── Heatmap ─── */
+/* â”€â”€â”€ Heatmap â”€â”€â”€ */
 .heatmap-container {
   overflow-x: auto;
 }
@@ -454,7 +459,7 @@ body {
   position: relative;
 }
 
-/* ─── Donut ─── */
+/* â”€â”€â”€ Donut â”€â”€â”€ */
 .donut-wrapper {
   display: flex;
   align-items: center;
@@ -494,7 +499,7 @@ body {
   font-variant-numeric: tabular-nums;
 }
 
-/* ─── Tooltip ─── */
+/* â”€â”€â”€ Tooltip â”€â”€â”€ */
 .custom-tooltip {
   background: #ffffff !important;
   border: 1px solid var(--border) !important;
@@ -532,7 +537,7 @@ body {
   padding-left: 1rem;
 }
 
-/* ─── Video ─── */
+/* â”€â”€â”€ Video â”€â”€â”€ */
 .video-container {
   width: 100%;
   border-radius: 10px;
@@ -550,7 +555,7 @@ body {
   background: #000;
 }
 
-/* ─── Recharts ─── */
+/* â”€â”€â”€ Recharts â”€â”€â”€ */
 .recharts-cartesian-axis-tick-value {
   fill: var(--text-muted) !important;
   font-size: 0.72rem !important;
@@ -561,7 +566,7 @@ body {
   font-size: 0.75rem !important;
 }
 
-/* ─── LULC Map Grid ─── */
+/* â”€â”€â”€ LULC Map Grid â”€â”€â”€ */
 .map-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -613,7 +618,7 @@ body {
   filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3));
 }
 
-/* ─── Legend Bar ─── */
+/* â”€â”€â”€ Legend Bar â”€â”€â”€ */
 .legend-bar {
   display: flex;
   flex-wrap: wrap;
@@ -642,7 +647,7 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-/* ─── Zoom Modal ─── */
+/* â”€â”€â”€ Zoom Modal â”€â”€â”€ */
 .zoom-modal-backdrop {
   position: fixed;
   inset: 0;
@@ -714,16 +719,16 @@ body {
   border-radius: 8px;
 }
 
-/* ─── Video Grid ─── */
+/* â”€â”€â”€ Video Grid â”€â”€â”€ */
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
 }
 
-/* ══════════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    RESPONSIVE
-   ══════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 @media (max-width: 1200px) {
   .chart-grid {
     grid-template-columns: 1fr;
@@ -784,5 +789,447 @@ body {
   .legend-chip {
     font-size: 0.75rem;
     padding: 0.3rem 0.6rem;
+  }
+}
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   RIVERS PAGE
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+.rivers-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  height: calc(100vh - var(--topbar-height) - 56px - 2.5rem);
+  min-height: 400px;
+}
+
+/* â”€â”€â”€ Hero Banner â”€â”€â”€ */
+.rivers-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.7) 0%, rgba(30, 64, 175, 0.65) 50%, rgba(14, 116, 144, 0.6) 100%);
+  color: #fff;
+  flex-shrink: 0;
+  box-shadow: 0 4px 16px rgba(30, 64, 175, 0.15);
+}
+
+.rivers-hero-content {
+  flex: 1;
+}
+
+.rivers-hero-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rivers-hero-icon {
+  font-size: 1.35rem;
+}
+
+.rivers-hero-subtitle {
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  max-width: 500px;
+  line-height: 1.45;
+}
+
+.rivers-hero-stat {
+  text-align: right;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.65rem 1.15rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(4px);
+}
+
+.rivers-hero-stat-label {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 0.2rem;
+  font-weight: 600;
+}
+
+.rivers-hero-stat-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.rivers-hero-stat-detail {
+  font-size: 0.68rem;
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: 0.15rem;
+}
+
+/* â”€â”€â”€ Main Content Row â”€â”€â”€ */
+.rivers-content {
+  display: flex;
+  gap: 1.25rem;
+  flex: 1;
+  min-height: 0;
+}
+
+/* â”€â”€â”€ River List Panel â”€â”€â”€ */
+.river-list-panel {
+  width: 320px;
+  min-width: 260px;
+  flex-shrink: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.river-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 1.15rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.river-list-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.river-count {
+  font-size: 0.68rem;
+  color: var(--accent-blue);
+  font-weight: 700;
+  background: rgba(59, 130, 246, 0.08);
+  padding: 0.2rem 0.55rem;
+  border-radius: 10px;
+  border: 1px solid rgba(59, 130, 246, 0.15);
+}
+
+.river-search-wrapper {
+  padding: 0.6rem 0.85rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.river-search {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.river-search::placeholder {
+  color: var(--text-muted);
+}
+
+.river-search:focus {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* â”€â”€â”€ River List Scroll â”€â”€â”€ */
+.river-list-scroll {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.4rem;
+}
+
+.river-list-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.river-list-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.river-list-scroll::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+/* â”€â”€â”€ River Card â”€â”€â”€ */
+.river-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 1px;
+}
+
+.river-card:hover {
+  background: var(--bg-secondary);
+  border-color: var(--border);
+}
+
+.river-card.selected {
+  background: rgba(16, 185, 129, 0.06);
+  border-color: rgba(16, 185, 129, 0.25);
+}
+
+.river-card.selected:hover {
+  background: rgba(16, 185, 129, 0.1);
+}
+
+.river-card.disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.river-card.disabled:hover {
+  background: transparent;
+  border-color: transparent;
+}
+
+/* â”€â”€â”€ Status Dot â”€â”€â”€ */
+.river-status-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05);
+}
+
+.river-card.selected .river-status-dot {
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+}
+
+.river-card-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+}
+
+.river-name {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.river-meta {
+  font-size: 0.67rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.river-select-indicator {
+  font-size: 0.8rem;
+  color: var(--accent-emerald);
+  font-weight: 700;
+  width: 16px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.river-empty {
+  padding: 2rem 1rem;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+/* â”€â”€â”€ River List Footer â”€â”€â”€ */
+.river-list-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.55rem 0.85rem;
+  border-top: 1px solid var(--border);
+  background: var(--bg-secondary);
+}
+
+.river-selected-count {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.river-clear-btn {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--accent-rose);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  transition: background 0.15s;
+}
+
+.river-clear-btn:hover {
+  background: rgba(224, 32, 32, 0.06);
+}
+
+/* â”€â”€â”€ Map Panel â”€â”€â”€ */
+.river-map-panel {
+  flex: 1;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.river-map-label {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.6rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border-light);
+  background: var(--bg-secondary);
+  flex-shrink: 0;
+}
+
+.river-map-label-icon {
+  font-size: 0.95rem;
+}
+
+.river-map-inner {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  padding: 2%;
+}
+
+/* â”€â”€â”€ Rivers Responsive â”€â”€â”€ */
+@media (max-width: 1200px) {
+  .river-list-panel {
+    width: 260px;
+    min-width: 220px;
+  }
+}
+
+@media (max-width: 900px) {
+  .rivers-page-wrapper {
+    height: auto;
+  }
+
+  .rivers-content {
+    flex-direction: column;
+  }
+
+  .rivers-hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+  }
+
+  .rivers-hero-stat {
+    text-align: center;
+  }
+
+  .river-list-panel {
+    width: 100%;
+    max-height: 300px;
+  }
+
+  .river-map-panel {
+    min-height: 280px;
+  }
+}
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   BOTTOM RIBBON
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+.bottom-ribbon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  padding: 0.5rem 1rem;
+  background: var(--bg-primary);
+  border-top: 1px solid var(--border);
+  height: 56px;
+  flex-shrink: 0;
+  position: sticky;
+  bottom: 0;
+  z-index: 50;
+}
+
+.bottom-ribbon-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.bottom-ribbon-item:hover {
+  color: var(--text-primary);
+  background: var(--bg-card-hover);
+}
+
+.bottom-ribbon-item.active {
+  color: var(--accent-blue);
+  background: rgba(59, 130, 246, 0.08);
+  font-weight: 600;
+}
+
+.bottom-ribbon-icon {
+  font-size: 1.1rem;
+}
+
+.bottom-ribbon-label {
+  font-size: 0.82rem;
+}
+
+@media (max-width: 600px) {
+  .bottom-ribbon {
+    gap: 0;
+    padding: 0.4rem 0.5rem;
+  }
+
+  .bottom-ribbon-item {
+    padding: 0.4rem 0.75rem;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .bottom-ribbon-label {
+    font-size: 0.65rem;
   }
 }
