@@ -35,19 +35,30 @@ export default function RiversPage() {
                 <div className="rivers-hero-content">
                     <h2 className="rivers-hero-title">
                         <span className="rivers-hero-icon">🏞️</span>
-                        Rivers of India
+                        Indian Riverbanks
                     </h2>
-                    <p className="rivers-hero-subtitle">
-                        Explore major rivers flowing through the Indian subcontinent.
-                        Select a river to view its analysis data.
-                    </p>
+                    {selectedData ? (
+                        <p className="rivers-hero-subtitle">
+                            {selectedData.studyArea.description}
+                        </p>
+                    ) : (
+                        <p className="rivers-hero-subtitle">
+                            Select a river to view its riverbank study area analysis.
+                        </p>
+                    )}
                 </div>
                 {selectedData && (
                     <div className="rivers-hero-stat">
-                        <div className="rivers-hero-stat-label">Currently Viewing</div>
+                        <div className="rivers-hero-stat-label">Study Area</div>
                         <div className="rivers-hero-stat-value">{selectedData.name}</div>
                         <div className="rivers-hero-stat-detail">
                             {selectedData.length} km · {selectedData.origin}
+                        </div>
+                        <div className="rivers-hero-coords">
+                            📍 {selectedData.studyArea.bounds.north.toFixed(2)}°N,{" "}
+                            {selectedData.studyArea.bounds.west.toFixed(2)}°E –{" "}
+                            {selectedData.studyArea.bounds.south.toFixed(2)}°N,{" "}
+                            {selectedData.studyArea.bounds.east.toFixed(2)}°E
                         </div>
                     </div>
                 )}

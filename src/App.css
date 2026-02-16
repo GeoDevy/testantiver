@@ -870,6 +870,14 @@ body {
   margin-top: 0.15rem;
 }
 
+.rivers-hero-coords {
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 0.35rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
+
 /* â”€â”€â”€ Main Content Row â”€â”€â”€ */
 .rivers-content {
   display: flex;

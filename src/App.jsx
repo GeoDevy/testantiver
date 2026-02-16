@@ -38,7 +38,7 @@ function AppContent() {
       <aside className={`sidebar ${sidebarCollapsed ? "collapsed" : ""}`}>
         <div className="sidebar-header">
           <div className="sidebar-logo">
-            {!sidebarCollapsed && <span className="logo-text">🌍 LULC Dashboard</span>}
+            {!sidebarCollapsed && <span className="logo-text">🌍 Indian Riverbanks</span>}
             {sidebarCollapsed && <span className="logo-icon">🌍</span>}
           </div>
           <button
