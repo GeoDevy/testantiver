@@ -8,6 +8,8 @@ import OverviewPage from "./pages/OverviewPage";
 import ChangeAnalysisPage from "./pages/ChangeAnalysisPage";
 import LulcMapsPage from "./pages/LulcMapsPage";
 import SimulationPage from "./pages/SimulationPage";
+import ErosionRatePage from "./pages/ErosionRatePage";
+import PredictedErosionPage from "./pages/PredictedErosionPage";
 
 const PERIOD_LABELS = lulcData.sankeyData.map(
   (s) => `${s.fromYear} → ${s.toYear}`
@@ -19,6 +21,8 @@ const BOTTOM_NAV_ITEMS = [
   { path: "/change-analysis", label: "Change Analysis", icon: "📈" },
   { path: "/lulc-maps", label: "LULC Maps", icon: "🗺️" },
   { path: "/simulation", label: "Simulation", icon: "🌊" },
+  { path: "/erosion-rate", label: "Erosion Rate", icon: "🏜️" },
+  { path: "/predicted-erosion", label: "Predicted Risk", icon: "⚠️" },
 ];
 
 function AppContent() {
@@ -122,6 +126,8 @@ function AppContent() {
             />
             <Route path="/lulc-maps" element={<LulcMapsPage />} />
             <Route path="/simulation" element={<SimulationPage />} />
+            <Route path="/erosion-rate" element={<ErosionRatePage />} />
+            <Route path="/predicted-erosion" element={<PredictedErosionPage />} />
           </Routes>
         </main>
 
